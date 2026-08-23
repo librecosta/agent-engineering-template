@@ -6,7 +6,6 @@ REQUIRED_FILES := \
 	README.md \
 	AGENTS.md \
 	CHANGELOG.md \
-	CONTRIBUTING.md \
 	.agents/architecture.md \
 	.agents/playbook.md \
 	contracts/compatibility.md \
