@@ -1,0 +1,20 @@
+name: Bug Report
+description: Report a problem
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Please describe the problem and, if possible, how to reproduce it.
+      placeholder: Tell us what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, environment details, or anything else that may help.
+    validations:
+      required: false
