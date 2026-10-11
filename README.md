@@ -6,6 +6,19 @@ This project demonstrates how to structure a repository so that humans and codin
 
 It is not tied to any specific AI model, coding agent, framework, or programming language.
 
+## Template and Skill
+
+This repository maintains two complementary resources:
+
+- **Agent Engineering Template:** practical engineering organization references and examples. The structure is a reference, not a layout every project must copy.
+- **[Agent Engineering Foundation Skill](.agents/skills/agent-engineering-foundation/SKILL.md):** reusable guidance for coding agents to establish engineering foundations selectively, according to the actual project.
+
+This repository is the Skill's maintenance source. Storing the Skill here does not automatically activate it in other repositories or global Codex sessions; install or explicitly reference it in the environment where it will be used.
+
+Each project's concrete engineering constraints take precedence over the general template and guidance.
+
+Development flows through `develop` → PR → `pre-master` → PR → `master`. `master` is the default branch and release baseline; `pre-master` is for integration and acceptance.
+
 ## Why
 
 Coding agents work best when a repository makes its engineering intent explicit.
@@ -53,12 +66,14 @@ Local development and CI should use the same verification entry points whenever 
 .
 ├── AGENTS.md
 ├── CHANGELOG.md
-├── CONTRIBUTING.md
 ├── Makefile
 │
 ├── .agents/
 │   ├── architecture.md
-│   └── playbook.md
+│   ├── playbook.md
+│   └── skills/
+│       └── agent-engineering-foundation/
+│           └── SKILL.md
 │
 ├── contracts/
 │   ├── compatibility.md

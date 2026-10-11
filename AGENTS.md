@@ -18,6 +18,8 @@ Before making a change:
 
 For architectural changes, also inspect relevant ADRs under `docs/decisions/`.
 
+For reusable guidance on adapting engineering foundations to a project, see the [Agent Engineering Foundation Skill](.agents/skills/agent-engineering-foundation/SKILL.md), maintained here alongside the template. Project-specific constraints take precedence.
+
 ## Repository Map
 
 - `apps/` — runnable applications.

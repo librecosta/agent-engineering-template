@@ -6,7 +6,8 @@ Only tagged releases are listed as versions below. Development work that has not
 
 ## Unreleased
 
-...
+- Add the complete Agent Engineering Foundation Skill and document its relationship to the reference template.
+- Initialize the LibreCosta `develop` → `pre-master` → `master` branch workflow.
 
 ## 1.x.x - xxxx-xx-xx
 
